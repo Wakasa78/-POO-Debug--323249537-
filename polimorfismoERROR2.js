@@ -49,6 +49,7 @@ class Rectangulo extends Figura {
 class Circulo extends Figura {
 
   constructor(radio) {
+    #radio
     super("Circulo");
     this.#radio = parseFloat(radio);
   }
